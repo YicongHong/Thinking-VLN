@@ -12,3 +12,5 @@ Cats are extremely helpful to research! I am doing cloud cat-petting everyday. R
 ### Some more serious thinkings (last update 10.Mar.2021)
 
 Wait, be careful. Perhaps nothing make sense.
+
+#### About Memory Graph
