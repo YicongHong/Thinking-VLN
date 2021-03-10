@@ -7,4 +7,6 @@ Well... it has been three years, [WHERE IS MY SPOON???](https://bringmeaspoon.or
 
 "*You shouldn't feel bad when someone else publishes a paper on the same idea you have been working on. That means we are on the right track and we have one less problem to solve. We can now focus on more interesting ideas.*" --- [Prof. Stephen Gould](http://users.cecs.anu.edu.au/~sgould/), my supervisor. :wink:
 
+Cats are extremely helpful to research! I am doing cloud cat-petting everyday. Really hope I can't have one by my side. :smiley_cat::kissing_cat:
+
 ### Some more serious thinkings (last update 10.Mar.2021)
