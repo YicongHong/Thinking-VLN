@@ -118,3 +118,12 @@ Hmm... [Recurrent-VLN-BERT](https://arxiv.org/abs/2011.13922) doesn't separate t
 <!--[ [paper]() | [code]() | [project page]() ]-->
 -------------------
 
+
+#### 6 - Using Objects
+
+Objects in VLN? Too sparse and too noisy. 
+
+
+
+<!--[ [paper]() | [code]() | [project page]() ]-->
+-----------------------
