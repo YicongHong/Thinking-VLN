@@ -50,3 +50,10 @@ Perhaps a more rigorous way to argue about progress monitor is to talk about its
 
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
+
+
+#### 3 - About VLN Pre-Training & Recurrent-VLN-BERT
+
+Pre-trained [Transformer-based](https://arxiv.org/abs/1706.03762) visual-language models are amazing. 
+
+
