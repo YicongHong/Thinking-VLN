@@ -89,9 +89,15 @@ On the other hand, it is great to see that Transformer is applied for achieving 
 
 #### 4 - About Mixture-of-Experts
 
-Not exactly MoE 
+Separating different visual modalities and applying independent language attentions at each step is a serious method in [AreYouLooking](https://arxiv.org/abs/1906.00347), [OAAM](https://arxiv.org/abs/2007.14626), and [Entity-Graph](https://arxiv.org/abs/2010.09304)
 
 
+- Are You Looking? Grounding to Multiple Modalities in Vision-and-Language Navigation
+  - Ronghang Hu et al., ACL 2019. [ [paper](https://arxiv.org/abs/1906.00347) ]
+- Object-and-Action Aware Model for Visual Language Navigation
+  - Yuankai Qi et al., ECCV 2020. [ [paper](https://arxiv.org/abs/2007.14626) ]
+- Language and Visual Entity Relationship Graph for Agent Navigation
+  - Yicong Hong et al., NeurIPS 2020. [ [paper](https://arxiv.org/abs/2010.09304) | [code](https://github.com/YicongHong/Entity-Graph-VLN)  ]
 
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
