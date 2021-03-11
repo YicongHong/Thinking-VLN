@@ -29,4 +29,4 @@ Wait, be careful. Perhaps nothing make sense.
   <figcaption>Fig. Language attention weights at each step. Left: SelfMonitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT.</figcaption>
 </figure>
 
-I am in <span style="font-family:Papyrus; font-size:2em;">LOVE!</span>
+I am in <span style="font-family:Papyrus; font-size:1em;">LOVE!</span>
