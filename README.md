@@ -25,6 +25,6 @@ Wait, be careful. Perhaps nothing make sense.
 #### 2 - About Progress Monitor
 
 <figure class="image">
-  <img src="figures/progress_monitor.png" width=100%>
+  <img src="figures/progress-monitor.png" width=100%>
   <figcaption>{"Language"}</figcaption>
 </figure>
