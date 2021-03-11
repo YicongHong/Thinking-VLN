@@ -32,6 +32,7 @@ AuxRN is similar but they use the attended language features instead of the weig
   <img src="figures/progress-monitor.png" width=100%>
   <figcaption>Fig. Language attention weights at each step (left: Self-Monitoring, mid: AuxRN, right: Recurrent-VLN-BERT).</figcaption>
 </figure>
+<p align="center">This is a centered caption for the image<p align="center">
 
 Perhaps a more rigorous way to argue about progress monitor is to talk about its regularization function in traing -- a weak signal to guide the network to read the most relevant text while exploring, rather than a prediction of the navigation process. BTW, RxR dataset has much more diverse language and path lengths, should try on that. :bowtie::bowtie:
 
