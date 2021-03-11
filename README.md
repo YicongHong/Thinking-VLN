@@ -20,7 +20,9 @@ Wait, be careful. Perhaps nothing make sense.
 #### 1 - About Memory Graph
 
 
-
+figcaption {
+  font-size: 1rem;
+}
 
 #### 2 - About Progress Monitor
 
