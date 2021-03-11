@@ -100,7 +100,7 @@ Hmm... [Recurrent-VLN-BERT](https://arxiv.org/abs/2011.13922) doesn't separate t
   <img src="figures/language-attention-bert.png" width=30%>
 </figure>
 Fig. Language self-attention weights of some selected heads in Recurrent-VLN-BERT.
-<p align="center">
+</p>
 
 
 - Are You Looking? Grounding to Multiple Modalities in Vision-and-Language Navigation
