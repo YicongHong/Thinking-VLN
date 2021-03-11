@@ -13,8 +13,6 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 
 "*I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain.*" --- [Blade Runner 1982](https://www.imdb.com/title/tt0083658/).
 
-The greatest lesson I've learned in my PhD so far is not about how to publish a paper. It's about how to learn, how to think, how to find a solution, how to plan, how to work with others and how to communicate. Learn to persist, learn to respect, learn to be responsible, learn to be precise, learn to be open-minded, learn to be critical and generous. Learn to enjoy the great time at [ANU](https://www.anu.edu.au/), learn to value my own work and learn to contribute. :relaxed::relaxed::relaxed:
-
 ---------------
 
 ### Some more serious thinkings (last update 10.Mar.2021)
@@ -137,3 +135,8 @@ HOWEVER, maybe we don't need to worry about regional features at all, perhaps Re
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
 -----------------------
+
+
+### Finally
+
+The greatest lesson I've learned in my PhD so far is never about how to publish a paper. It's about how to learn, how to think, how to find a solution, how to plan, how to work with others and how to communicate. Learn to persist, learn to respect, learn to be responsible, learn to be precise, learn to be open-minded, learn to be critical and generous. Learn to enjoy the great time at [ANU](https://www.anu.edu.au/), learn to value my own work and learn to contribute. Thanks  [Steve](http://users.cecs.anu.edu.au/~sgould/), thanks [Qi](http://www.qi-wu.me/), thanks [Cristian](https://crodriguezo.github.io/), thanks [Lexing](http://users.cecs.anu.edu.au/~xlx/), thanks [Yuankai](https://sites.google.com/site/yuankiqi/home) and thanks all my friends and colleagues at ACRV & CECS,ANU. :relaxed::relaxed::relaxed:
