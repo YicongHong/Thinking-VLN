@@ -89,7 +89,7 @@ On the other hand, it is great to see that Transformer is applied for achieving 
 
 #### 4 - About Mixture-of-Experts
 
-
+Not exactly MoE 
 
 
 
