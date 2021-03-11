@@ -24,7 +24,7 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 
 I am wondering if the progress monitors defined in Self-Monitoring and SERL are learning about a dataset bias. Due to the fact that the predicted language attention weights is an input to the progress estimation module, the network could simply learns to **shift the attention weights as the agent progresses regardless whether the agent is on the right path**. :thinking: :thinking: 
 
-Not sure if this problem is somehow reflected in Fig.(left) below, I think the correct way of visualizing the language attention is to seperate the **successful and failure cases**, or take the **actual distance to target** into account.
+Not sure if this problem is somehow reflected in Fig.(left) below, considering the low success rate in unseen split. I think the correct way of visualizing the language attention is to seperate the **successful and failure cases**, or take the **actual distance to target** into account.
 
 AuxRN is similar but they use the attended language features instead of the weights. In their paper, they mentioned "*the attention map tends to be an uniform distribution when the agent gets lost*", but I am not sure how is that shown in Fig.(mid)... :confused:
 
@@ -33,5 +33,9 @@ AuxRN is similar but they use the attended language features instead of the weig
 </figure>
 <p align="center">Fig. Language attention weights at each step (left: Self-Monitoring, mid: AuxRN, right: Recurrent-VLN-BERT).<p align="center">
 
-Perhaps a more rigorous way to argue about progress monitor is to talk about its regularization function in traing -- a weak signal to guide the network to read the most relevant text while exploring, rather than a prediction of the navigation process. BTW, RxR dataset has much more diverse language and path lengths, should try on that. :bowtie::bowtie:
+Recurrent-VLN-BERT doesn't use progress monitor, but the language attention shows similar behaviour, Fig.(right). The dark region becomes thicker as the agent progresses, not sure if that is due to some short instructions in R2R, or it reflects some failures cases -- the agent loses its way so it doesn't attend the last bit of the instruction (for stopping).
+
+Perhaps a more rigorous way to argue about progress monitor is to talk about its regularization function in training -- a weak signal to guide the network to read the most relevant text while exploring, rather than a prediction of the navigation process. BTW, RxR dataset has much more diverse language and path lengths, should try on that. :grin::grin:
+
+
 
