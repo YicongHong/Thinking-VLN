@@ -3,7 +3,7 @@ Some of my immature ideas and thoughts about the fascinating [Vision-and-Languag
 
 Well... it has been three years, [WHERE IS MY SPOON???](https://bringmeaspoon.org/) :expressionless::expressionless::expressionless:
 
-Take a look at this great collection of [papers of Embodied Vision](https://github.com/ChanganVR/awesome-embodied-vision) (for Navigation) by [Changan Chen](https://changan.io/).
+You can use this great collection of [papers of Embodied Vision](https://github.com/ChanganVR/awesome-embodied-vision) (for Navigation) by [Changan Chen](https://changan.io/) to learn more.
 
 ### Before worrying about the spoon
 
