@@ -96,9 +96,7 @@ Feels like mixture-of-experts, modular networks, disentangled representations ..
 Hmm... [Recurrent-VLN-BERT](https://arxiv.org/abs/2011.13922) doesn't separate the scene features and the directional encoding, but it has multi-head attention. :smirk:
 
 <p align="center">
-<figure class="image">
-  <img src="figures/language-attention-bert.png" width=30%>
-</figure>
+<img src="figures/language-attention-bert.png" width=30%>
 Fig. Language self-attention weights of some selected heads in Recurrent-VLN-BERT.
 </p>
 
