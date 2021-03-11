@@ -22,9 +22,9 @@ Wait, be careful. Perhaps nothing make sense.
 
 #### 2 - About Progress Monitor
 
-I am wondering if the progress monitors defined in Self-Monitoring and SERL are learning about a dataset bias. Due to the fact that the predicted language attention weights is an input to the progress estimation module, the network could simply learns to shift the attention weights as the agent progresses regardless whether the agent is on the right path. :thinking: :thinking: 
+I am wondering if the progress monitors defined in Self-Monitoring and SERL are learning about a dataset bias. Due to the fact that the predicted language attention weights is an input to the progress estimation module, the network could simply learns to **shift the attention weights as the agent progresses regardless whether the agent is on the right path**. :thinking: :thinking: 
 
-Not sure if this problem is somehow reflected in Fig.(left) below, I think the correct way of visualizing the language attention is to seperate the successful and failure cases, or take the actual distance to target into account.
+Not sure if this problem is somehow reflected in Fig.(left) below, I think the correct way of visualizing the language attention is to seperate the **successful and failure cases**, or take the **actual distance to target** into account.
 
 <figure class="image">
   <img src="figures/progress-monitor.png" width=100%>
