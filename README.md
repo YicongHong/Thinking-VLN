@@ -22,10 +22,9 @@ Wait, be careful. Perhaps nothing make sense.
 
 #### 2 - About Progress Monitor
 
-
+I am wondering if the progress monitors defined in Self-Monitoring and SERL are learning about a dataset bias. Due to the fact that the language attention weights is an input to the progress estimation module, the network could simply shift the attention weights as the agent progresses regardless whether the agent is on the right path.
 
 <figure class="image">
   <img src="figures/progress-monitor.png" width=100%>
-<!--   <figcaption>Fig. Language attention weights at each step. Left: SelfMonitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT.</figcaption> -->
-  <span class="img_caption" style="display: block; text-align: center;">caption</span>
+  <figcaption>Fig. Language attention weights at each step. Left: Self-Monitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT.</figcaption>
 </figure>
