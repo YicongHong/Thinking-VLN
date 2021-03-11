@@ -37,11 +37,14 @@ Recurrent-VLN-BERT doesn't use progress monitor, but the language attention show
 
 Perhaps a more rigorous way to argue about progress monitor is to talk about its regularization function in training -- a weak signal to guide the network to read the most relevant text while exploring, rather than a prediction of the navigation process. BTW, RxR dataset has much more diverse language and path lengths, should try on that. :grin::grin:
 
-**Resources**
 - Self-Monitoring: Self-Monitoring Navigation Agent via Auxiliary Progress Estimation.
   - Chih-Yao Ma et al., ICLR 2019. [ [paper](https://arxiv.org/abs/1901.03035) | [code](https://github.com/chihyaoma/selfmonitoring-agent) | [project page](https://chihyaoma.github.io/project/2018/09/27/selfmonitoring.html) ]
-- SERL
-- AuxRN
-- Recurrent-VLN-BERT
+- SERL: Soft Expert Reward Learning for Vision-and-Language Navigation
+  - Hu Wang et al., ECCV 2020. [ [paper](https://arxiv.org/abs/2007.10835) ]
+- AuxRN: Vision-Language Navigation with Self-Supervised Auxiliary Reasoning Tasks.
+  - Fengda Zhu et al., CVPR 2020. [ [paper](https://arxiv.org/abs/1911.07883) ]
+- Recurrent-VLN-BERT: A Recurrent Vision-and-Language BERT for Navigation.
+  - Yicong Hong et al., CVPR 2021. [ [paper](https://arxiv.org/abs/2011.13922) | [code](https://github.com/YicongHong/Recurrent-VLN-BERT) ]
 
 
+<!--[ [paper]() | [code]() | [project page]() ]-->
