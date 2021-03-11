@@ -58,7 +58,7 @@ Perhaps a more rigorous way to argue about progress monitor is to talk about its
 -----------------------
 
 
-#### 3 - About VLN Pre-Training & Transformer for VLN
+#### 3 - About Pre-Training & Transformer
 
 Pre-trained [Transformer-based](https://arxiv.org/abs/1706.03762) visual-language models are amazing. 
 
@@ -82,6 +82,17 @@ On the other hand, it is great to see that Transformer is applied for achieving 
   - Yicong Hong et al., CVPR 2021. [ [paper](https://arxiv.org/abs/2011.13922) | [code](https://github.com/YicongHong/Recurrent-VLN-BERT) ]
 - Topological Planning with Transformers for Vision-and-Language Navigation
   - Kevin Chen et al., arXiv 2021. [ [paper](https://arxiv.org/abs/2012.05292) ]
+
+<!--[ [paper]() | [code]() | [project page]() ]-->
+-------------------
+
+
+#### 4 - About Mixture-of-Experts
+
+
+
+
+
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
 -------------------
