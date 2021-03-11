@@ -26,5 +26,5 @@ Wait, be careful. Perhaps nothing make sense.
 
 <figure class="image">
   <img src="figures/progress-monitor.png" width=70%>
-  <figcaption><span style="font-size:4em;">Fig. Language attention weights at each step. Left: SelfMonitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT.</span></figcaption>
+  <figcaption><span style="font-size:1em;">Fig. Language attention weights at each step. Left: SelfMonitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT.</span></figcaption>
 </figure>
