@@ -19,7 +19,7 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 
 Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere:
 
-#### 1 - About Memory Graph
+#### 1 - About Memory Graph and Early Training
 
 
 #### 2 - About Progress Monitor
@@ -57,7 +57,7 @@ Pre-trained [Transformer-based](https://arxiv.org/abs/1706.03762) visual-languag
 
 For VLN, starting from [PRESS](https://arxiv.org/abs/1909.02244) which directly use the language features produced by a pre-trained [BERT](https://arxiv.org/abs/1810.04805). Then, [PREVALENT](https://github.com/weituo12321/PREVALENT) designs the Attended Masked Language Modeling (conditioned on images) and the Action Prediction objectives especially for VLN pre-training, but uses language features only for fine-tuning in downstream tasks. Later, [VLN-BERT](https://arxiv.org/abs/2004.14973) applies MLM to pre-train the network for estimating instruction-path compatibility.
 
-
+I like our [Recurrent-VLN-BERT](https://github.com/YicongHong/Recurrent-VLN-BERT) for its simplicity and efficiency. We were looking for a way to allow the network to adequetly benefit from the pre-trained V&L knowledge for the VLN tasks. And the idea we came up with is simple enough -- use the [CLS] token as a recurrent link and cut away the entire downstream network -- **using BERT itself as the Navigator** -- it could be a general network for many other problems which are defined as a partially observable Markov decision process (maybe with short-term dependency? Not sure... please see *About Memory Graph and Early Training*).
 
 
 
@@ -69,6 +69,8 @@ For VLN, starting from [PRESS](https://arxiv.org/abs/1909.02244) which directly 
   - Weituo Hao et al., CVPR 2020. [ [paper](https://arxiv.org/abs/2002.10638) | [code](https://github.com/weituo12321/PREVALENT) ]
 - VLN-BERT: Improving Vision-and-Language Navigation with Image-Text Pairs from the Web
   - Arjun Majumdar et al., ECCV 2020. [ [paper](https://arxiv.org/abs/2004.14973) ]
+- Recurrent-VLN-BERT: A Recurrent Vision-and-Language BERT for Navigation
+  - Yicong Hong et al., CVPR 2021. [ [paper](https://arxiv.org/abs/2011.13922) | [code](https://github.com/YicongHong/Recurrent-VLN-BERT) ]
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
 
