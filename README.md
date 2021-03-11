@@ -20,14 +20,9 @@ Wait, be careful. Perhaps nothing make sense.
 #### 1 - About Memory Graph
 
 
-figcaption {
-  font-size: 1rem;
-}
-
 #### 2 - About Progress Monitor
 
 <figure class="image">
   <img src="figures/progress-monitor.png" width=70%>
-  figcaption {font-size: 1rem;}
   <figcaption>Language attention weights at each step. Left: SelfMonitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT.</figcaption>
 </figure>
