@@ -39,15 +39,14 @@ Not sure if this problem is somehow reflected in Fig.(left) below, considering t
 
 Perhaps a more rigorous way to argue about progress monitor is to talk about its regularization function in training -- a weak signal to guide the network to read the most relevant text while exploring ([monotonically aligned sequences](https://arxiv.org/abs/2004.02707)), rather than a prediction of the navigation process. BTW, [RxR dataset](https://github.com/google-research-datasets/RxR) has much more diverse language and path lengths, should try on that. :grin::grin:
 
-- Self-Monitoring: Self-Monitoring Navigation Agent via Auxiliary Progress Estimation.
+- Self-Monitoring: Self-Monitoring Navigation Agent via Auxiliary Progress Estimation
   - Chih-Yao Ma et al., ICLR 2019. [ [paper](https://arxiv.org/abs/1901.03035) | [code](https://github.com/chihyaoma/selfmonitoring-agent) | [project page](https://chihyaoma.github.io/project/2018/09/27/selfmonitoring.html) ]
 - SERL: Soft Expert Reward Learning for Vision-and-Language Navigation
   - Hu Wang et al., ECCV 2020. [ [paper](https://arxiv.org/abs/2007.10835) ]
-- AuxRN: Vision-Language Navigation with Self-Supervised Auxiliary Reasoning Tasks.
+- AuxRN: Vision-Language Navigation with Self-Supervised Auxiliary Reasoning Tasks
   - Fengda Zhu et al., CVPR 2020. [ [paper](https://arxiv.org/abs/1911.07883) ]
-- Recurrent-VLN-BERT: A Recurrent Vision-and-Language BERT for Navigation.
+- Recurrent-VLN-BERT: A Recurrent Vision-and-Language BERT for Navigation
   - Yicong Hong et al., CVPR 2021. [ [paper](https://arxiv.org/abs/2011.13922) | [code](https://github.com/YicongHong/Recurrent-VLN-BERT) ]
-
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
 
@@ -56,4 +55,20 @@ Perhaps a more rigorous way to argue about progress monitor is to talk about its
 
 Pre-trained [Transformer-based](https://arxiv.org/abs/1706.03762) visual-language models are amazing. 
 
+For VLN, starting from [PRESS](https://arxiv.org/abs/1909.02244) which directly use the language features produced by a pre-trained [BERT](https://arxiv.org/abs/1810.04805). Then, [PREVALENT](https://github.com/weituo12321/PREVALENT) designs the Attended Masked Language Modeling (conditioned on images) and the Action Prediction objectives especially for VLN pre-training, but uses language features only for fine-tuning in downstream tasks. Later, [VLN-BERT](https://arxiv.org/abs/2004.14973) applies MLM to pre-train the network for estimating instruction-path compatibility.
+
+
+
+
+
+
+
+- PRESS: Robust Navigation with Language Pretraining and Stochastic Sampling
+  - Xiujun Li et al., EMNLP-IJCNLP 2019. [ [paper](https://arxiv.org/abs/1909.02244) ]
+- PREVALENT: Towards Learning a Generic Agent for Vision-and-Language Navigation via Pre-training
+  - Weituo Hao et al., CVPR 2020. [ [paper](https://arxiv.org/abs/2002.10638) | [code](https://github.com/weituo12321/PREVALENT) ]
+- VLN-BERT: Improving Vision-and-Language Navigation with Image-Text Pairs from the Web
+  - Arjun Majumdar et al., ECCV 2020. [ [paper](https://arxiv.org/abs/2004.14973) ]
+
+<!--[ [paper]() | [code]() | [project page]() ]-->
 
