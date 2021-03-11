@@ -22,6 +22,12 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 #### 1 - About Memory Graph and Early Training
 
 
+
+
+<!--[ [paper]() | [code]() | [project page]() ]-->
+-----------------------
+
+
 #### 2 - About Progress Monitor
 
 I am wondering if the progress monitors defined in [Self-Monitoring](https://arxiv.org/abs/1901.03035) and [SERL](https://arxiv.org/abs/2007.10835) are learning about a dataset bias. Due to the fact that the predicted language attention weights is an input to the progress estimation module, the network could simply learns to **shift the attention weights as the agent progresses regardless whether the agent is on the right path**. :thinking: :thinking: 
@@ -49,6 +55,7 @@ Perhaps a more rigorous way to argue about progress monitor is to talk about its
   - Yicong Hong et al., CVPR 2021. [ [paper](https://arxiv.org/abs/2011.13922) | [code](https://github.com/YicongHong/Recurrent-VLN-BERT) ]
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
+-----------------------
 
 
 #### 3 - About VLN Pre-Training & Recurrent-VLN-BERT
@@ -75,4 +82,5 @@ Guess not all the research group has the resources to run pre-training. "*Learn 
   - Yicong Hong et al., CVPR 2021. [ [paper](https://arxiv.org/abs/2011.13922) | [code](https://github.com/YicongHong/Recurrent-VLN-BERT) ]
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
+-------------------
 
