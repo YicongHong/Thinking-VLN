@@ -1,5 +1,5 @@
 # Thinking-VLN
-Some of my immature ideas and thoughts about the fascinating [Vision-and-Language Navigation](https://panderson.me/). :smiley:
+Some of my immature ideas and thoughts about the fascinating [Vision-and-Language Navigation](https://panderson.me/). :smiley: (last update 10.Mar.2021)
 
 Well... it has been three years, [WHERE IS MY SPOON???](https://bringmeaspoon.org/) :expressionless::expressionless::expressionless:
 
@@ -15,7 +15,7 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 
 ---------------
 
-### Some more serious thinkings (last update 10.Mar.2021)
+### Some more serious thinkings
 
 Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere:
 
