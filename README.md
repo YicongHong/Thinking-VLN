@@ -15,7 +15,7 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 
 ### Some more serious thinkings (last update 10.Mar.2021)
 
-Wait, be careful. Perhaps nothing make sense.
+Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere:
 
 #### 1 - About Memory Graph
 
@@ -25,6 +25,10 @@ Wait, be careful. Perhaps nothing make sense.
 I am wondering if the progress monitors defined in Self-Monitoring and SERL are learning about a dataset bias. Due to the fact that the predicted language attention weights is an input to the progress estimation module, the network could simply learns to **shift the attention weights as the agent progresses regardless whether the agent is on the right path**. :thinking: :thinking: 
 
 Not sure if this problem is somehow reflected in Fig.(left) below, I think the correct way of visualizing the language attention is to seperate the **successful and failure cases**, or take the **actual distance to target** into account.
+
+AuxRN is similar but they use the attended language features instead of the weights, 
+
+Perhaps a more rigorous way to argue about progress monitor is to talk about 
 
 <figure class="image">
   <img src="figures/progress-monitor.png" width=100%>
