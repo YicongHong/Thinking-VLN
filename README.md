@@ -22,7 +22,9 @@ Wait, be careful. Perhaps nothing make sense.
 
 #### 2 - About Progress Monitor
 
+
+
 <figure class="image">
   <img src="figures/progress-monitor.png" width=70%>
-  <figcaption>Language attention weights at each step. Left: SelfMonitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT.</figcaption>
+  <figcaption>Fig. Language attention weights at each step. Left: SelfMonitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT.</figcaption>
 </figure>
