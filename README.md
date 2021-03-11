@@ -28,7 +28,17 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 -----------------------
 
 
-#### 2 - About Progress Monitor
+#### 2 - Are We Asking the Right Question?
+
+
+
+
+
+<!--[ [paper]() | [code]() | [project page]() ]-->
+-----------------------
+
+
+#### 3 - About Progress Monitor
 
 I am wondering if the progress monitors defined in [Self-Monitoring](https://arxiv.org/abs/1901.03035) and [SERL](https://arxiv.org/abs/2007.10835) are learning about a dataset bias. Due to the fact that the predicted language attention weights is an input to the progress estimation module, the network could simply learns to **shift the attention weights as the agent progresses regardless whether the agent is on the right path**. :thinking: :thinking: 
 
@@ -56,13 +66,13 @@ Perhaps a more rigorous way to argue about progress monitor is to talk about its
 -----------------------
 
 
-#### 3 - About Pre-Training & Transformer
+#### 4 - About Pre-Training & Transformer
 
 Pre-trained [Transformer-based](https://arxiv.org/abs/1706.03762) visual-language models are amazing. 
 
 For VLN, starting from [PRESS](https://arxiv.org/abs/1909.02244) which directly use the language features produced by a pre-trained [BERT](https://arxiv.org/abs/1810.04805). Then, [PREVALENT](https://github.com/weituo12321/PREVALENT) designs the Attended Masked Language Modeling (conditioned on images) and the Action Prediction objectives especially for VLN pre-training, but uses language features only for fine-tuning in downstream tasks. Later, [VLN-BERT](https://arxiv.org/abs/2004.14973) applies MLM to pre-train the network for estimating instruction-path compatibility.
 
-I like our [Recurrent-VLN-BERT](https://github.com/YicongHong/Recurrent-VLN-BERT) for its simplicity and efficiency. We were looking for a way to allow the network to adequetly benefit from the pre-trained V&L knowledge for the VLN tasks. And the idea we came up with is simple enough -- use the [CLS] token as a recurrent link and cut away the entire downstream network -- **using BERT itself as the Navigator** -- it could also be a general network for many other problems which are defined as a partially observable Markov decision process (maybe with short-term dependency? Not sure... please see *1 - About Memory Graph and Early Training*. And finally, very efficient, a single RTX-2080Ti GPU for training to new SoTA. Hope I am not over-selling it. :stuck_out_tongue::stuck_out_tongue::stuck_out_tongue:
+I like our [Recurrent-VLN-BERT](https://github.com/YicongHong/Recurrent-VLN-BERT) for its simplicity and efficiency. We were looking for a way to allow the network to adequetly benefit from the pre-trained V&L knowledge for the VLN tasks. And the idea we came up with is simple enough -- use the [CLS] token as a recurrent link and cut away the entire downstream network -- **using BERT itself as the Navigator** -- it could also be a general network for many other problems which are defined as a partially observable Markov decision process (maybe with short-term dependency? Not sure... please see *About Memory Graph and Early Training*. And finally, very efficient, a single RTX-2080Ti GPU for training to new SoTA. Hope I am not over-selling it. :stuck_out_tongue::stuck_out_tongue::stuck_out_tongue:
 
 We started the project in a way very similar to [PREVALENT](https://arxiv.org/abs/2002.10638). [Cristian](https://crodriguezo.github.io/) and I designed five pre-training objectives: (1) Heading Angle Prediction, (2) Contrastive Instruction-Path Learning, (3) Stopping Prediction, (4) Sub-Instructions Permutation Learning and (5) Masked Verbs Modelling. We coded up lots of stuffs but soon we are frightened by the data and the compute requirement.
 
@@ -85,7 +95,7 @@ On the other hand, it is great to see that Transformer is applied for achieving 
 -------------------
 
 
-#### 4 - About Separating Visual Modalities
+#### 5 - About Separating Visual Modalities
 
 Separating different visual modalities and applying independent language attentions at each step is a very influential method in [AreYouLooking](https://arxiv.org/abs/1906.00347), [OAAM](https://arxiv.org/abs/2007.14626), and [Entity-Graph](https://arxiv.org/abs/2010.09304). For visual representations, instead of concatenating the scene (grid) features, object (regional) features and the directional encoding, methods above process these representations with specialized languages to facilitate the network for learning the noun-scene, noun-object and verb-direction correspondences. Of course, before making a decision, we need some methods to aggregate them.
 
