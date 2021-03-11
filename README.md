@@ -58,7 +58,7 @@ Perhaps a more rigorous way to argue about progress monitor is to talk about its
 -----------------------
 
 
-#### 3 - About VLN Pre-Training & Recurrent-VLN-BERT
+#### 3 - About VLN Pre-Training & Transformer for VLN
 
 Pre-trained [Transformer-based](https://arxiv.org/abs/1706.03762) visual-language models are amazing. 
 
@@ -70,7 +70,7 @@ We started that project in a way very similar to [PREVALENT](https://arxiv.org/a
 
 Guess not all the research group has the resources to run pre-training. "*Learn to use the pre-trained knowledge could be the next trend, rather than everyone doing the pre-training themselves*" --- [Dr. Qi Wu](http://www.qi-wu.me/), my secondary supervisor. :grinning::relieved:
 
-
+On the other hand, it is great to see that Transformer is applied for achieving lots of other important functions in navigation, such as [Scene Memory](https://openaccess.thecvf.com/content_CVPR_2019/html/Fang_Scene_Memory_Transformer_for_Embodied_Agents_in_Long-Horizon_Tasks_CVPR_2019_paper.html), [Back-Translation](https://arxiv.org/pdf/2103.00852.pdf), and one of my favourite [Topological Mapping and Planning](https://arxiv.org/abs/2012.05292).
 
 - PRESS: Robust Navigation with Language Pretraining and Stochastic Sampling
   - Xiujun Li et al., EMNLP-IJCNLP 2019. [ [paper](https://arxiv.org/abs/1909.02244) ]
@@ -80,6 +80,8 @@ Guess not all the research group has the resources to run pre-training. "*Learn 
   - Arjun Majumdar et al., ECCV 2020. [ [paper](https://arxiv.org/abs/2004.14973) ]
 - Recurrent-VLN-BERT: A Recurrent Vision-and-Language BERT for Navigation
   - Yicong Hong et al., CVPR 2021. [ [paper](https://arxiv.org/abs/2011.13922) | [code](https://github.com/YicongHong/Recurrent-VLN-BERT) ]
+- Topological Planning with Transformers for Vision-and-Language Navigation
+  - Kevin Chen et al., arXiv 2021. [ [paper](https://arxiv.org/abs/2012.05292) ]
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
 -------------------
