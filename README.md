@@ -26,5 +26,6 @@ Wait, be careful. Perhaps nothing make sense.
 
 <figure class="image">
   <img src="figures/progress-monitor.png" width=50%>
-  <figcaption>"Language attention weights at each step. Left: SelfMonitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT."</figcaption>
+  <em>apple pir</em>
+<!--   <figcaption>"Language attention weights at each step. Left: SelfMonitoring, Mid: AuxRN, Right: Recurrent-VLN-BERT."</figcaption> -->
 </figure>
