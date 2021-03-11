@@ -18,3 +18,13 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 Wait, be careful. Perhaps nothing make sense.
 
 #### 1 - About Memory Graph
+
+
+
+
+#### 2 - About Progress Monitor
+
+<figure class="image">
+  <img src="figures/progress_monitor.png" width=100%>
+  <figcaption>{"Language"}</figcaption>
+</figure>
