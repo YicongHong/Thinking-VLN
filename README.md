@@ -97,6 +97,7 @@ Hmm... [Recurrent-VLN-BERT](https://arxiv.org/abs/2011.13922) doesn't separate t
 
 <p align="center">
 <img src="figures/language-attention-bert.png" width=30%>
+  
 Fig. Language self-attention weights of some selected heads in Recurrent-VLN-BERT.
 </p>
 
