@@ -125,7 +125,7 @@ Objects in R2R-VLN? **Too sparse and too noisy**. Apart from [AreYouLooking](htt
 
 It is too difficult for the network to learn the sparse, diverse and noisy object features only using the small [R2R dataset](https://arxiv.org/abs/1711.07280). Even for the [REVERIE dataset](https://arxiv.org/abs/1904.10151), where the object positions are given, is still hard. One way to get around this problem, as in [AreYouLooking](https://arxiv.org/abs/1906.00347) and [Entity-Graph](https://arxiv.org/abs/2010.09304), is to use the word embeddings of the detected object labels instead of the object features. Such method also facilitates the attention to find out the correspondence between instruction and visual objects.
 
-HOWEVER, maybe we don't need to worry about regional features at all, probably ResNet scene features already captured the salient objects, such as bathtub in bathroom, oven in kitchen and TV in livingroom. :sweat_smile::sweat_smile::sweat_smile:
+HOWEVER, maybe we don't need to worry about regional features at all, perhaps ResNet scene features already captured the salient objects, such as bathtub in bathroom, oven in kitchen and TV in livingroom. :sweat_smile::sweat_smile::sweat_smile:
 
 - Are You Looking? Grounding to Multiple Modalities in Vision-and-Language Navigation
   - Ronghang Hu et al., ACL 2019. [ [paper](https://arxiv.org/abs/1906.00347) ]
