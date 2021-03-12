@@ -5,7 +5,7 @@ Well... it has been three years, [WHERE IS MY SPOON???](https://bringmeaspoon.or
 
 You can use this great collection of [papers of Embodied Vision](https://github.com/ChanganVR/awesome-embodied-vision) (for Navigation) by [Changan Chen](https://changan.io/) to learn more.
 
-You are extremely welcome to comment and share your thoughts here! :wink:
+You are extremely welcome to comment and share your thoughts here! Just create an issue? :wink:
 
 ### Before worrying about the spoon
 
