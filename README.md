@@ -67,13 +67,13 @@ Simply "*bring me a spoon*" sounds like we don't need (natural) language at all,
 
 ### <a name="2"></a>2 - About Memory Graph and Early Training
 
-If the agent is very certain of its current position, why does it need to read/care about the previous sub-instructions? :confused::confused:
+Under the current R2R-VLN setting. If the agent is very certain of its current position, why does it need to read/care about the previous sub-instructions? :confused::confused:
 
 After the [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) paper, we were interested in upgrading a sub-instruction aware module that allows the attention to jump back and forth among sub-instructions. One idea was to build a **sub-instruction attention graph** where each node represents a sub-instruction and the language attention can travel through edges at each time step. Comparing to the baseline method which requires the agent to finish each sub-instruction sequentially, the motivation behind the **sub-instruction attention graph** was to allow the network to attend the correct sub-instruction when the agent corrects itself to the right path from mistaken steps.
 
 I can understand the skipping (jumping forward), but back-tracking sub-instructions? Isn't that unnecessary? :thinking:
 
-That leads me to re-think about early methods on back-tracking such as the [Regretful Agent](https://arxiv.org/abs/1903.01602) and [Tactical Rewind](https://arxiv.org/abs/1903.02547) as well as recent methods on memory buffer/graph, such as the [Evolving Graphical Planner](), [Structured Scene Memory]() and [Active Exploration]()
+That leads me to re-think about early methods on back-tracking such as the [Regretful Agent](https://arxiv.org/abs/1903.01602) and [Tactical Rewind](https://arxiv.org/abs/1903.02547) as well as recent methods on memory buffer/graph, such as the [Evolving Graphical Planner](https://arxiv.org/abs/2007.05655), [Structured Scene Memory](https://arxiv.org/abs/2103.03454) and [Active Exploration](https://arxiv.org/abs/2007.08037). 
 
 
 
@@ -87,6 +87,12 @@ Encourage exploration in early training...? Perhaps... simply collect more data 
   - Chih-Yao Ma et al., CVPR 2019. [ [paper](https://arxiv.org/abs/1903.01602) | [code](https://github.com/chihyaoma/regretful-agent) | [project page](https://chihyaoma.github.io/project/2019/02/25/regretful.html) ]
 - Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation
   - Liyiming Ke et al., CVPR 2019. [ [paper](https://arxiv.org/abs/1903.02547) | [code](https://github.com/Kelym/FAST) ]
+- Evolving Graphical Planner: Contextual Global Planning for Vision-and-Language Navigation
+  - Zhiwei Deng et al., NeurIPS 2020. [ [paper](https://arxiv.org/abs/2007.05655) ]
+- Structured Scene Memory for Vision-Language Navigation
+  - Hanqing Wang et al., arXiv 2021. [ [paper](https://arxiv.org/abs/2103.03454) ]
+- Active Visual Information Gathering for Vision-Language Navigation
+  - Hanqing Wang et al., ECCV 2020. [ [paper](https://arxiv.org/abs/2007.08037) | [code](https://github.com/HanqingWangAI/Active_VLN) ]
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
 -----------------------
