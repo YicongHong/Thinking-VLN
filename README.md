@@ -138,7 +138,7 @@ Objects in R2R-VLN? **Too sparse and too noisy**. Apart from [AreYouLooking](htt
 
 It is too difficult for the network to learn the sparse, diverse and noisy object features only using the small [R2R dataset](https://arxiv.org/abs/1711.07280). Even for the [REVERIE dataset](https://arxiv.org/abs/1904.10151), where the object positions are given, it is still hard. One way to get around this problem, as in all the aforementioned papers [AreYouLooking](https://arxiv.org/abs/1906.00347), [Entity-Graph](https://arxiv.org/abs/2010.09304) and [DiagnosingEnvBias](https://arxiv.org/abs/2005.03086), is to use the word embeddings of the detected object labels instead of the object features. Such method also facilitates the attention to find out the correspondence between instruction and visual objects.
 
-<p align="center"><img src="figures/object-detection.png" width=70%></p>
+<p align="center"><img src="figures/object-detection.png" width=50%></p>
 <p align="center">Fig. An example of detected objects in R2R-VLN.</p>
 
 What about those less valueable object labels in the detection? Such as sky, wall and floor? [Entity-Graph](https://arxiv.org/abs/2010.09304) further "*to simplify the object vocabulary and remove rare detections, we combine the 1,600 classes to 101 classes, where the 100 classes are the most frequent objects appear in both the instruction and the environment of the training data, and the remaining 1 class is others*", while [DiagnosingEnvBias](https://arxiv.org/abs/2005.03086) "*calculate the total areas of each detection object among all environments and pick the labels that take up a relatively large proportion of the environments*".
