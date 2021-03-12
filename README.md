@@ -35,7 +35,10 @@ Are we asking the right question in Vision-and-Language Navigation? Does the [R2
 
 After working on the fascinating VLN for two years, I have started to question the question of "*asking a robot to navigate in previously unseen and photo-realistic environments following natural language instructions*".
 
-Many papers sell the VLN application as a household robot, where the user can ask the robot to go to the kitchen and [bring him/her a spoon](https://bringmeaspoon.org/). The problem is, if we are taking about a household robot, why do we need to describe the path in such a comprehensive way? "*Exit the bathroom and turn right. Continue down the hall and turn left into the kitchen area. Once you enter the kitchen area turn right. Immediately turn right again. Wait in the smaller kitchen area in front of the sink.*" Couldn't I simply say "*Please bring me a spoon*"? :unamused:
+Many papers sell the VLN application as a household robot, where the user can ask the robot to go to the kitchen and [bring him/her a spoon](https://bringmeaspoon.org/). The problem is, if we are taking about a household robot, why do we need to describe the path in such a comprehensive way? "*Exit the bathroom and turn right. Continue down the hall and turn left into the kitchen area. Once you enter the kitchen area turn right. Immediately turn right again. Wait in the smaller kitchen area in front of the sink.*" Couldn't I simply say "*Please bring me a spoon*"? :unamused: Moreover, if it is a household robot, shouldn't we allow it to navigate, to do some mappings and to get familiar with the environment first?
+
+Well... I understand we are trying to solve an easier problem first. And we are solving it as a vision-and-language problem, not really a navigation task. As for [REVERIE](https://github.com/YuankaiQi/REVERIE), those high-level instructions make much more sense to me, but directly learn to navigation with high-level instructions is way too difficult --- too much **commonsense** requried, wait... how to define *commonsense*??
+
 
 
 
