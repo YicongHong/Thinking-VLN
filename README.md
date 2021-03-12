@@ -86,7 +86,7 @@ For VLN, starting from [PRESS](https://arxiv.org/abs/1909.02244) which directly 
 I like our [Recurrent-VLN-BERT](https://github.com/YicongHong/Recurrent-VLN-BERT) for its simplicity and efficiency. We were looking for a way to allow the network to adequetly benefit from the pre-trained V&L knowledge for the VLN tasks. And the idea we came up with is simple enough -- use the [CLS] token as a recurrent link and cut away the entire downstream network -- **using BERT itself as the Navigator** -- it could also be a general network for many other problems which are defined as a partially observable Markov decision process (maybe only with short-term dependency? Not sure... please see *About Memory Graph and Early Training*. And finally, very efficient, a single RTX-2080Ti GPU for training to new SoTA. Hopefully I am not over-selling it. :stuck_out_tongue::stuck_out_tongue::stuck_out_tongue:
 
 <p align="center"><img src="figures/recurrent-vln-bert.png" width=50%></p>
-<p align="center">Fig. Schematics of the Recurrent Vision-and-Language BERT [OSCAR](https://github.com/microsoft/Oscar)\-based.</p>
+<p align="center">Fig. Schematics of the Recurrent Vision-and-Language BERT ([OSCAR](https://github.com/microsoft/Oscar)-based).</p>
 
 We started the project in a way very similar to [PREVALENT](https://arxiv.org/abs/2002.10638). [Cristian](https://crodriguezo.github.io/) and I designed five pre-training objectives: (1) Heading Angle Prediction, (2) Contrastive Instruction-Path Learning, (3) Stopping Prediction, (4) Sub-Instructions Permutation Learning and (5) Masked Verbs Modelling. We coded up lots of stuffs but soon we are frightened by the data and the compute requirement.
 
@@ -134,7 +134,7 @@ Hmm... [Recurrent-VLN-BERT](https://arxiv.org/abs/2011.13922) doesn't separate t
 
 ### <a name="6"></a>6 - Using Objects
 
-Objects in R2R-VLN? **Too sparse and too noisy**. Apart from [AreYouLooking](https://arxiv.org/abs/1906.00347) and [Entity-Graph](https://arxiv.org/abs/2010.09304), I can't think of any other work that exploit objects in [Matterport3D](https://niessner.github.io/Matterport/) environment (important landmarks mentioned in [R2R](https://arxiv.org/abs/1711.07280) instructions). :thinking: We believe objects in instructions are extremely important because they "*allowing the agent to be aware of the exact progress of completing the instruction, providing strong localization signals to the agent in the environment and clarifying ambiguity for choosing a direction... use them for progress monitoring, instance tracking or reward shaping in reinforcement learning.*" ---[Entity-Graph](https://arxiv.org/abs/2010.09304). Feels like we should be able to design lots of interesting learning objectives based on objects.
+Objects in R2R-VLN? **Too sparse and too noisy**. Apart from [AreYouLooking](https://arxiv.org/abs/1906.00347), [Entity-Graph](https://arxiv.org/abs/2010.09304) and [DiagnosingEnvBias](https://arxiv.org/abs/2005.03086) I can't think of any other work that exploit objects in [Matterport3D](https://niessner.github.io/Matterport/) environment (important landmarks mentioned in [R2R](https://arxiv.org/abs/1711.07280) instructions). :thinking: We believe objects in instructions are extremely important because they "*allowing the agent to be aware of the exact progress of completing the instruction, providing strong localization signals to the agent in the environment and clarifying ambiguity for choosing a direction... use them for progress monitoring, instance tracking or reward shaping in reinforcement learning.*" ---[Entity-Graph](https://arxiv.org/abs/2010.09304). Feels like we should be able to design lots of interesting learning objectives based on objects.
 
 It is too difficult for the network to learn the sparse, diverse and noisy object features only using the small [R2R dataset](https://arxiv.org/abs/1711.07280). Even for the [REVERIE dataset](https://arxiv.org/abs/1904.10151), where the object positions are given, it is still hard. One way to get around this problem, as in [AreYouLooking](https://arxiv.org/abs/1906.00347) and [Entity-Graph](https://arxiv.org/abs/2010.09304), is to use the word embeddings of the detected object labels instead of the object features. Such method also facilitates the attention to find out the correspondence between instruction and visual objects.
 
@@ -146,6 +146,8 @@ Another very interesting finding in [Entity-Graph](https://arxiv.org/abs/2010.09
   - Ronghang Hu et al., ACL 2019. [ [paper](https://arxiv.org/abs/1906.00347) ]
 - Language and Visual Entity Relationship Graph for Agent Navigation
   - Yicong Hong et al., NeurIPS 2020. [ [paper](https://arxiv.org/abs/2010.09304) | [code](https://github.com/YicongHong/Entity-Graph-VLN)  ]
+- Diagnosing the Environment Bias in Vision-and-Language Navigation
+  - Yubo Zhang et al., IJCAI 2020. [ [paper](https://arxiv.org/abs/2005.03086) | [code](https://github.com/zhangybzbo/EnvBiasVLN) ]
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
 -----------------------
