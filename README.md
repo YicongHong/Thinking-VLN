@@ -21,7 +21,24 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 
 Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere:
 
-#### 1 - About Memory Graph and Early Training
+<b>Table of Contents</b><br><br>
+<a href="#1">1. Definition of the REVERIE Task</a><br>
+<a href="#2">2. Install without Docker</a><br>
+<a href="#3">3. Install with Docker</a><br>
+<a href="#4">4. Train and Test the Model</a><br>
+<a href="#5">5. Data Organization of the REVERIE Task</a><br>
+<a href="#6">6. Integrate into Your Existing Project</a><br>
+<a href="#7">7. Result File Format</a><br>
+<a href="#8">8. Acknowledgements</a><br>
+<a href="#9">9. Reference</a><br>
+
+-------------------------
+
+### <a name="1"></a>1. Definition of the REVERIE Task
+aaaaaa
+
+
+#### 1 - Are We Asking the Right Question?
 
 
 
@@ -30,7 +47,8 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 -----------------------
 
 
-#### 2 - Are We Asking the Right Question?
+#### 2 - About Memory Graph and Early Training
+
 
 
 
@@ -130,8 +148,6 @@ It is too difficult for the network to learn the sparse, diverse and noisy objec
 HOWEVER, maybe we don't need to worry about regional features at all, perhaps ResNet scene features already captured the salient objects, such as bathtub in bathroom, oven in kitchen and TV in livingroom. :sweat_smile::sweat_smile::sweat_smile:
 
 Another very interesting finding in [Entity-Graph](https://arxiv.org/abs/2010.09304) is that "*there exists a large difference between the subset of unseen samples (a unique 10%) solved by our graph networks with objects and the subset (another unique 8%) solved by our graph networks without objects.*" Feels like too large to be noise, wondering if we can train a single network to solve all these samples.
-
-(PDF) Language and Visual Entity Relationship Graph for Agent Navigation. Available from: https://www.researchgate.net/publication/344738478_Language_and_Visual_Entity_Relationship_Graph_for_Agent_Navigation [accessed Mar 12 2021].*"
 
 - Are You Looking? Grounding to Multiple Modalities in Vision-and-Language Navigation
   - Ronghang Hu et al., ACL 2019. [ [paper](https://arxiv.org/abs/1906.00347) ]
