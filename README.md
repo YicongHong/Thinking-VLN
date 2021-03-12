@@ -67,7 +67,9 @@ Simply "*bring me a spoon*" sounds like we don't need (natural) language at all,
 
 ### <a name="2"></a>2 - About Memory Graph and Early Training
 
-After the [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) paper, we were interested in building a sub-instruction aware module that allows the attention to jump back and forth among sub-instructions. One idea was to build a **sub-instruction attention graph** where each node represents a sub-instruction and the language attention can travel through edges at each time step. The motivation behind this was
+If the agent is very certain of its current position, why does it need to read/care about the previous sub-instructions?
+
+After the [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) paper, we were interested in building a sub-instruction aware module that allows the attention to jump back and forth among sub-instructions. One idea was to build a **sub-instruction attention graph** where each node represents a sub-instruction and the language attention can travel through edges at each time step. Comparing to the baseline method which requires the agent to finish each sub-instruction sequentially, the motivation behind the **sub-instruction attention graph** was to allow the network to attend 
 
 
 
@@ -100,7 +102,7 @@ Not sure if this problem is somehow reflected in Fig.(left) below, considering t
 
 Perhaps a more rigorous way to argue about progress monitor is to talk about its regularization function in training -- a weak signal to guide the network to read the most relevant text while exploring ([monotonically aligned sequences](https://arxiv.org/abs/2004.02707)), rather than a prediction of the navigation process. [RxR dataset](https://github.com/google-research-datasets/RxR) has much more diverse language and path lengths, should try on that. :grin::grin:
 
-One more thing, the idea in [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) provides a very handy way to monitor the progress. But after more than a year finished that work, I realize the biggest value of FGR2R is the sub-instructions, not the sub-instruction-path alignment, although the chunking function is just a heuristic.
+One more thing, the idea in [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) provides a very handy way to monitor the progress. But after more than a year finished that work, I realize the biggest value of FGR2R is the sub-instructions, not the sub-instruction-path alignment, although the chunking function is only a heuristic.
 
 - Self-Monitoring: Self-Monitoring Navigation Agent via Auxiliary Progress Estimation
   - Chih-Yao Ma et al., ICLR 2019. [ [paper](https://arxiv.org/abs/1901.03035) | [code](https://github.com/chihyaoma/selfmonitoring-agent) | [project page](https://chihyaoma.github.io/project/2018/09/27/selfmonitoring.html) ]
