@@ -18,6 +18,7 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 ### Some more serious thinkings
 
 Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere:
+
 <a href="#1">1 - Are We Asking the Right Question?</a><br>
 <a href="#2">2 - About Memory Graph and Early Training</a><br>
 <a href="#3">3 - About Progress Monitor</a><br>
