@@ -44,11 +44,22 @@ Well... I understand we are trying to solve an easier problem first. And we are 
 
 [Self-Exploration](https://arxiv.org/abs/1811.10092) is a very inspiring self-supervised learning method, which "*is of practical benefit because it facilitates lifelong learning and adaption to new environments*". But whenever I think about mapping a new environment, I am not sure if self-exploration is still a good idea, afterall, the [Speaker](https://arxiv.org/abs/1806.02724) is defective and the training should be slow.
 
+I guess this is probably the reason why I became a big fan of the [Active Neural SLAM](https://www.cs.cmu.edu/~dchaplot/projects/neural-slam.html) by [Devendra Singh Chaplot](https://www.cs.cmu.edu/~dchaplot/projects/neural-slam.html), and his other great works such as [Neural Topological SLAM]()
+
+
+
 
 - Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments
   - Peter Anderson et al., CVPR 2018. [ [paper](https://arxiv.org/abs/1711.07280) | [code](https://github.com/peteanderson80/Matterport3DSimulator) | [project page](https://bringmeaspoon.org/) ]
 - Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation
   - Xin Wang et al., CVPR 2019. [ [paper](https://arxiv.org/abs/1811.10092) ]
+- Learning to Explore using Active Neural SLAM
+  - Devendra Singh Chaplot et al., ICLR 2020. [ [Habitat challenge winner](https://aihabitat.org/challenge/2019/) | [paper](https://openreview.net/pdf?id=HklXn1BKDH) | [code](https://github.com/devendrachaplot/Neural-SLAM) | [project page](https://www.cs.cmu.edu/~dchaplot/projects/neural-slam.html) ]
+- Neural Topological SLAM for Visual Navigation
+  - Devendra Singh Chaplot et al., CVPR 2020. [ [paper](https://arxiv.org/abs/2005.12256) | [project page](https://www.cs.cmu.edu/~dchaplot/projects/neural-topological-slam.html) ]
+- Object Goal Navigation using Goal-Oriented Semantic Exploration
+  - Devendra Singh Chaplot et al., NeurIPS 2020. [ [Habitat challenge winner](https://aihabitat.org/challenge/2020/) | [paper](https://arxiv.org/abs/2007.00643) | [project page](https://www.cs.cmu.edu/~dchaplot/projects/semantic-exploration.html) ]
+
 
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
