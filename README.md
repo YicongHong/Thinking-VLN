@@ -19,13 +19,13 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 
 Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere:
 
-<a href="#1">1 - Are We Asking the Right Question?</a>
-  <a href="#2">2 - About Memory Graph and Early Training</a>
-  <a href="#3">3 - About Progress Monitor</a>
-<a href="#4">4 - About Pre-Training & Transformer</a>
-<a href="#5">5 - About Separating Visual Modalities</a>
-<a href="#6">6 - Using Objectst</a>
-<a href="#7">Finally</a>
+<a href="#1">1 - Are We Asking the Right Question?</a><br>
+<a href="#2">2 - About Memory Graph and Early Training</a><br>
+<a href="#3">3 - About Progress Monitor</a><br>
+<a href="#4">4 - About Pre-Training & Transformer</a><br>
+<a href="#5">5 - About Separating Visual Modalities</a><br>
+<a href="#6">6 - Using Objectst</a><br>
+<a href="#7">Finally</a><br>
 
 -------------------------
 
