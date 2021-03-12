@@ -46,8 +46,7 @@ Well... I understand we are trying to solve an easier problem first. And we are 
 
 I guess this is probably the reason why I became a big fan of the [Active Neural SLAM](https://www.cs.cmu.edu/~dchaplot/projects/neural-slam.html) by [Devendra Singh Chaplot](https://www.cs.cmu.edu/~dchaplot/projects/neural-slam.html), and his other great works such as [Neural Topological SLAM](https://arxiv.org/abs/2005.12256) and [Goal-Oriented Semantic Exploration](https://arxiv.org/abs/2007.00643). Soon after that, we really wanted to do SLAM for VLN, but Ta-Dah! [Topological Planning with TRMs for VLN](https://arxiv.org/abs/2012.05292), a very beautiful work by [Kevin Chen](https://cs.stanford.edu/~kchen92/), couldn't say we can do better. :wink::wink:
 
-
-
+Simply "*bring me a spoon*" sounds like we don't need (natural) language at all, but that's not how I picture VLN. I am thinking of an interactive senario, involving visual dialog, something like -- "*Please bring me a spoon*" "*On my way to kitchen...*" "*I think I left it on the dinning table yesterday.*" "*I can see a teaspoon and a soupsoon on the table...*" "*Soupspoon.*" "*Got it, on my way back.*" :relaxed: A beautiful task that allows pre-exploration-mapping, and combines visual-question-answering, referring expression, dialog, and navigation.
 
 - Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments
   - Peter Anderson et al., CVPR 2018. [ [paper](https://arxiv.org/abs/1711.07280) | [code](https://github.com/peteanderson80/Matterport3DSimulator) | [project page](https://bringmeaspoon.org/) ]
