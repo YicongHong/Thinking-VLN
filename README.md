@@ -69,9 +69,11 @@ Simply "*bring me a spoon*" sounds like we don't need (natural) language at all,
 
 If the agent is very certain of its current position, why does it need to read/care about the previous sub-instructions? :confused::confused:
 
-After the [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) paper, we were interested in upgrading a sub-instruction aware module that allows the attention to jump back and forth among sub-instructions. One idea was to build a **sub-instruction attention graph** where each node represents a sub-instruction and the language attention can travel through edges at each time step. Comparing to the baseline method which requires the agent to finish each sub-instruction sequentially, the motivation behind the **sub-instruction attention graph** was to allow the network to attend the correct sub-instruction when it corrects itself to the right path from mistaken steps.
+After the [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) paper, we were interested in upgrading a sub-instruction aware module that allows the attention to jump back and forth among sub-instructions. One idea was to build a **sub-instruction attention graph** where each node represents a sub-instruction and the language attention can travel through edges at each time step. Comparing to the baseline method which requires the agent to finish each sub-instruction sequentially, the motivation behind the **sub-instruction attention graph** was to allow the network to attend the correct sub-instruction when the agent corrects itself to the right path from mistaken steps.
 
+I can understand the skipping (jumping forward), but back-tracking sub-instructions? Isn't that unnecessary? :thinking:
 
+That leads me to re-think about early methods on back-tracking such as the [Regretful Agent](https://arxiv.org/abs/1903.01602) and [Tactical Rewind](https://arxiv.org/abs/1903.02547) as well as recent methods on memory buffer/graph, such as the [Evolving Graphical Planner](), [Structured Scene Memory]() and [Active Exploration]()
 
 
 
@@ -81,7 +83,10 @@ Encourage exploration in early training...? Perhaps... simply collect more data 
   - Yicong Hong et al., EMNLP2020. [ [paper](https://arxiv.org/abs/2004.02707) | [FGR2R data](https://github.com/YicongHong/Fine-Grained-R2R) ]
 - Room-Across-Room: Multilingual Vision-and-Language Navigation with Dense Spatiotemporal Grounding
   - Alexander Ku et al., EMNLP 2020. [ [paper](https://arxiv.org/abs/2010.07954) | [code](https://github.com/google-research-datasets/RxR) | [Habitat Challenge](https://github.com/jacobkrantz/VLN-CE/tree/rxr-habitat-challenge) ]
-
+- The Regretful Agent: Heuristic-Aided Navigation through Progress Estimation
+  - Chih-Yao Ma et al., CVPR 2019. [ [paper](https://arxiv.org/abs/1903.01602) | [code](https://github.com/chihyaoma/regretful-agent) | [project page](https://chihyaoma.github.io/project/2019/02/25/regretful.html) ]
+- Tactical Rewind: Self-Correction via Backtracking in Vision-and-Language Navigation
+  - Liyiming Ke et al., CVPR 2019. [ [paper](https://arxiv.org/abs/1903.02547) | [code](https://github.com/Kelym/FAST) ]
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
 -----------------------
@@ -103,6 +108,8 @@ Not sure if this problem is somehow reflected in Fig.(left) below, considering t
 Perhaps a more rigorous way to argue about progress monitor is to talk about its regularization function in training -- a weak signal to guide the network to read the most relevant text while exploring ([monotonically aligned sequences](https://arxiv.org/abs/2004.02707)), rather than a prediction of the navigation process. [RxR dataset](https://github.com/google-research-datasets/RxR) has much more diverse language and path lengths, should try on that. :grin::grin:
 
 One more thing, the idea in [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) provides a very handy way to monitor the progress. But after more than a year finished that work, I realize the biggest value of FGR2R is the sub-instructions, not the sub-instruction-path alignment, although the chunking function is only a heuristic.
+
+Oh, one more! Progress estimation helps back-tracking, take a look at the [Regretful Agent](https://arxiv.org/abs/1903.01602) if you are interested.
 
 - Self-Monitoring: Self-Monitoring Navigation Agent via Auxiliary Progress Estimation
   - Chih-Yao Ma et al., ICLR 2019. [ [paper](https://arxiv.org/abs/1901.03035) | [code](https://github.com/chihyaoma/selfmonitoring-agent) | [project page](https://chihyaoma.github.io/project/2018/09/27/selfmonitoring.html) ]
