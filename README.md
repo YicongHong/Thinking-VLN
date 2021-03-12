@@ -31,8 +31,11 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 
 ### <a name="1"></a>1 - Are We Asking the Right Question?
 
-Are we asking the right question in Vision-and-Language Navigation? Does the [R2R](https://arxiv.org/abs/1711.07280) and [RxR](https://arxiv.org/abs/2010.07954) tasks make sense? 
+Are we asking the right question in Vision-and-Language Navigation? Does the [R2R](https://arxiv.org/abs/1711.07280) and [RxR](https://arxiv.org/abs/2010.07954) tasks make sense? :thinking:
 
+After working on the fascinating VLN for two years, I have started to question the question of "*asking a robot to navigate in previously unseen and photo-realistic environments following natural language instructions*".
+
+Many papers sell the VLN application as a household robot, where the user can ask the robot to go to the kitchen and [bring him/her a spoon](https://bringmeaspoon.org/). The problem is, if we are taking about a household robot, why do we need to describe the path in such a comprehensive way? "*Exit the bathroom and turn right. Continue down the hall and turn left into the kitchen area. Once you enter the kitchen area turn right. Immediately turn right again. Wait in the smaller kitchen area in front of the sink.*" Couldn't I simply say "*Please bring me a spoon*"? :unamused:
 
 
 
