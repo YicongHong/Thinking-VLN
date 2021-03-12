@@ -75,6 +75,8 @@ Perhaps a more rigorous way to argue about progress monitor is to talk about its
 - Recurrent-VLN-BERT: A Recurrent Vision-and-Language BERT for Navigation
   - Yicong Hong et al., CVPR 2021. [ [paper](https://arxiv.org/abs/2011.13922) | [code](https://github.com/YicongHong/Recurrent-VLN-BERT) ]
 
+BTW, [Self-Monitoring](https://github.com/chihyaoma/selfmonitoring-agent) is where I started to get my hands dirty with VLN, a great paper! Thanks [Dr. Chih-Yao Ma](https://chihyaoma.github.io/)! :laughing:
+
 <!--[ [paper]() | [code]() | [project page]() ]-->
 -----------------------
 
