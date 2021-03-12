@@ -15,14 +15,12 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 
 "*I've seen things you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched C-beams glitter in the dark near the Tannhäuser Gate. All those moments will be lost in time, like tears in rain.*" --- [Blade Runner 1982](https://www.imdb.com/title/tt0083658/).
 
----------------
-
 ### Some more serious thinkings
 
 Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere:
 
 <b>Table of Contents</b><br><br>
-<a href="#1">1. Definition of the REVERIE Task</a><br>
+<a href="#1">1 - Are We Asking the Right Question?</a><br>
 <a href="#2">2. Install without Docker</a><br>
 <a href="#3">3. Install with Docker</a><br>
 <a href="#4">4. Train and Test the Model</a><br>
@@ -34,11 +32,7 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 
 -------------------------
 
-### <a name="1"></a>1. Definition of the REVERIE Task
-aaaaaa
-
-
-#### 1 - Are We Asking the Right Question?
+### <a name="1"></a>1 - Are We Asking the Right Question?
 
 
 
