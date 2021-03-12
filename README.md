@@ -18,17 +18,13 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 ### Some more serious thinkings
 
 Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere:
-
-<b>Table of Contents</b><br><br>
 <a href="#1">1 - Are We Asking the Right Question?</a><br>
-<a href="#2">2. Install without Docker</a><br>
-<a href="#3">3. Install with Docker</a><br>
-<a href="#4">4. Train and Test the Model</a><br>
-<a href="#5">5. Data Organization of the REVERIE Task</a><br>
-<a href="#6">6. Integrate into Your Existing Project</a><br>
-<a href="#7">7. Result File Format</a><br>
-<a href="#8">8. Acknowledgements</a><br>
-<a href="#9">9. Reference</a><br>
+<a href="#2">2 - About Memory Graph and Early Training</a><br>
+<a href="#3">3 - About Progress Monitor</a><br>
+<a href="#4">4 - About Pre-Training & Transformer</a><br>
+<a href="#5">5 - About Separating Visual Modalities</a><br>
+<a href="#6">6 - Using Objectst</a><br>
+<a href="#7">Finally</a><br>
 
 -------------------------
 
@@ -41,7 +37,7 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 -----------------------
 
 
-#### 2 - About Memory Graph and Early Training
+### 2 - About Memory Graph and Early Training
 
 
 
@@ -52,7 +48,7 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 -----------------------
 
 
-#### 3 - About Progress Monitor
+### 3 - About Progress Monitor
 
 I am wondering if the progress monitors defined in [Self-Monitoring](https://arxiv.org/abs/1901.03035) and [SERL](https://arxiv.org/abs/2007.10835) are learning about a dataset bias. Due to the fact that the predicted language attention weights is an input to the progress estimation module, the network could simply learns to **shift the attention weights as the agent progresses regardless whether the agent is on the right path**. :thinking: :thinking: 
 
@@ -80,7 +76,7 @@ Perhaps a more rigorous way to argue about progress monitor is to talk about its
 -----------------------
 
 
-#### 4 - About Pre-Training & Transformer
+### 4 - About Pre-Training & Transformer
 
 Pre-trained [Transformer-based](https://arxiv.org/abs/1706.03762) visual-language models are amazing. 
 
@@ -109,7 +105,7 @@ On the other hand, it is great to see that Transformer is applied for achieving 
 -------------------
 
 
-#### 5 - About Separating Visual Modalities
+### 5 - About Separating Visual Modalities
 
 Separating different visual modalities and applying independent language attentions is a very influential method in [AreYouLooking](https://arxiv.org/abs/1906.00347), [OAAM](https://arxiv.org/abs/2007.14626), and [Entity-Graph](https://arxiv.org/abs/2010.09304). For visual representations, instead of concatenating the scene (grid) features, object (regional) features and the directional encoding, methods above process these representations with specialized languages to facilitate the network for learning the noun-scene, noun-object and verb-direction correspondences. Of course, before making a decision, we need some methods to aggregate them.
 
@@ -133,7 +129,7 @@ Hmm... [Recurrent-VLN-BERT](https://arxiv.org/abs/2011.13922) doesn't separate t
 -------------------
 
 
-#### 6 - Using Objects
+### 6 - Using Objects
 
 Objects in R2R-VLN? **Too sparse and too noisy**. Apart from [AreYouLooking](https://arxiv.org/abs/1906.00347) and [Entity-Graph](https://arxiv.org/abs/2010.09304), I can't think of any other work that exploit objects in [Matterport3D](https://niessner.github.io/Matterport/) environment (important landmarks mentioned in [R2R](https://arxiv.org/abs/1711.07280) instructions). :thinking: We believe objects in instructions are extremely important because they "*allowing the agent to be aware of the exact progress of completing the instruction, providing strong localization signals to the agent in the environment and clarifying ambiguity for choosing a direction... use them for progress monitoring, instance tracking or reward shaping in reinforcement learning.*" ---[Entity-Graph](https://arxiv.org/abs/2010.09304). Feels like we should be able to design lots of interesting learning objectives based on objects.
 
