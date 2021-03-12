@@ -31,6 +31,8 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 
 ### <a name="1"></a>1 - Are We Asking the Right Question?
 
+Are we asking the right question in Vision-and-Language Navigation? Does the [R2R](https://arxiv.org/abs/1711.07280) and [RxR](https://arxiv.org/abs/2010.07954) tasks make sense? 
+
 
 
 
@@ -132,7 +134,7 @@ Hmm... [Recurrent-VLN-BERT](https://arxiv.org/abs/2011.13922) doesn't separate t
 -------------------
 
 
-### <a name="6"></a>6 - Using Objects
+### <a name="6"></a>6 - About Using Objects
 
 Objects in R2R-VLN? **Too sparse and too noisy**. Apart from [AreYouLooking](https://arxiv.org/abs/1906.00347), [Entity-Graph](https://arxiv.org/abs/2010.09304) and [DiagnosingEnvBias](https://arxiv.org/abs/2005.03086), I can't think of any other work that exploit objects in [Matterport3D](https://niessner.github.io/Matterport/) environment (important landmarks mentioned in [R2R](https://arxiv.org/abs/1711.07280) instructions). :thinking: We believe objects in instructions are extremely important because they "*allowing the agent to be aware of the exact progress of completing the instruction, providing strong localization signals to the agent in the environment and clarifying ambiguity for choosing a direction... use them for progress monitoring, instance tracking or reward shaping in reinforcement learning.*" ---[Entity-Graph](https://arxiv.org/abs/2010.09304). Feels like we should be able to design lots of interesting learning objectives based on objects.
 
