@@ -44,7 +44,7 @@ Well... I understand we are trying to solve an easier problem first. And we are 
 
 [Self-Exploration](https://arxiv.org/abs/1811.10092) is a very inspiring self-supervised learning method, which "*is of practical benefit because it facilitates lifelong learning and adaption to new environments*". But whenever I think about mapping a new environment, I am not sure if self-exploration is still a good idea, afterall, the [Speaker](https://arxiv.org/abs/1806.02724) is defective and the training should be slow.
 
-I guess this is probably the reason why I became a big fan of the [Active Neural SLAM](https://www.cs.cmu.edu/~dchaplot/projects/neural-slam.html) by [Devendra Singh Chaplot](https://www.cs.cmu.edu/~dchaplot/projects/neural-slam.html), and his other great works such as [Neural Topological SLAM]()
+I guess this is probably the reason why I became a big fan of the [Active Neural SLAM](https://www.cs.cmu.edu/~dchaplot/projects/neural-slam.html) by [Devendra Singh Chaplot](https://www.cs.cmu.edu/~dchaplot/projects/neural-slam.html), and his other great works such as [Neural Topological SLAM](https://arxiv.org/abs/2005.12256) and [Goal-Oriented Semantic Exploration](https://arxiv.org/abs/2007.00643). Soon after that, we really wanted to do SLAM for VLN, but Ta-Dah! [Topological Planning with TRMs for VLN](https://arxiv.org/abs/2012.05292), a very beautiful work by [Kevin Chen](https://cs.stanford.edu/~kchen92/), couldn't say we can do better. :wink::wink:
 
 
 
@@ -59,8 +59,8 @@ I guess this is probably the reason why I became a big fan of the [Active Neural
   - Devendra Singh Chaplot et al., CVPR 2020. [ [paper](https://arxiv.org/abs/2005.12256) | [project page](https://www.cs.cmu.edu/~dchaplot/projects/neural-topological-slam.html) ]
 - Object Goal Navigation using Goal-Oriented Semantic Exploration
   - Devendra Singh Chaplot et al., NeurIPS 2020. [ [Habitat challenge winner](https://aihabitat.org/challenge/2020/) | [paper](https://arxiv.org/abs/2007.00643) | [project page](https://www.cs.cmu.edu/~dchaplot/projects/semantic-exploration.html) ]
-
-
+- Topological Planning with Transformers for Vision-and-Language Navigation
+  - Kevin Chen et al., arXiv 2021. [ [paper](https://arxiv.org/abs/2012.05292) ]
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
 -----------------------
