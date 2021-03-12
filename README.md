@@ -17,7 +17,7 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 
 ### Some more serious thinkings
 
-Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere:
+Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere: (last update 10.Mar.2021)
 
 <a href="#1">1 - Are We Asking the Right Question?</a><br>
 <a href="#2">2 - About Memory Graph and Early Training</a><br>
@@ -25,7 +25,7 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 <a href="#4">4 - About Pre-Training & Transformer</a><br>
 <a href="#5">5 - About Separating Visual Modalities</a><br>
 <a href="#6">6 - Using Objectst</a><br>
-<a href="#7">Finally</a><br>
+<a href="#7">7 - Finally</a><br>
 
 -------------------------
 
@@ -149,7 +149,7 @@ Another very interesting finding in [Entity-Graph](https://arxiv.org/abs/2010.09
 -----------------------
 
 
-### <a name="7"></a>Finally
+### <a name="7"></a>7 - Finally
 
 The greatest lesson I've learned in my PhD so far is never about how to publish a paper.
 
