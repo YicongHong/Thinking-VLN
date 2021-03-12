@@ -67,9 +67,9 @@ Simply "*bring me a spoon*" sounds like we don't need (natural) language at all,
 
 ### <a name="2"></a>2 - About Memory Graph and Early Training
 
-If the agent is very certain of its current position, why does it need to read/care about the previous sub-instructions?
+If the agent is very certain of its current position, why does it need to read/care about the previous sub-instructions? :confused::confused:
 
-After the [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) paper, we were interested in building a sub-instruction aware module that allows the attention to jump back and forth among sub-instructions. One idea was to build a **sub-instruction attention graph** where each node represents a sub-instruction and the language attention can travel through edges at each time step. Comparing to the baseline method which requires the agent to finish each sub-instruction sequentially, the motivation behind the **sub-instruction attention graph** was to allow the network to attend 
+After the [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) paper, we were interested in upgrading a sub-instruction aware module that allows the attention to jump back and forth among sub-instructions. One idea was to build a **sub-instruction attention graph** where each node represents a sub-instruction and the language attention can travel through edges at each time step. Comparing to the baseline method which requires the agent to finish each sub-instruction sequentially, the motivation behind the **sub-instruction attention graph** was to allow the network to attend the correct sub-instruction when it corrects itself to the right path from mistaken steps.
 
 
 
