@@ -39,7 +39,7 @@ Many papers sell the VLN application as a household robot, where the user can as
 
 Well... I understand we are trying to solve an easier problem first. And we are solving it as a vision-and-language problem, not really a navigation task. As for [REVERIE](https://github.com/YuankaiQi/REVERIE), those high-level instructions make much more sense to me, but directly learn to navigation with high-level instructions is way too difficult --- too much **commonsense** requried, wait... how to define *commonsense*??
 
-<p align="center"><img src="figures/peter-vln.png" width=80%></p>
+<p align="center"><img src="figures/peter-vln.jpg" width=80%></p>
 <p align="center">Fig. Vision-and-Language Navigation (Peter Anderson et al., CVPR 2018).</p>
 
 
