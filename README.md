@@ -35,16 +35,20 @@ Are we asking the right question in Vision-and-Language Navigation? Does the [R2
 
 After working on the fascinating VLN for two years, I have started to question the question of "*asking a robot to navigate in previously unseen and photo-realistic environments following natural language instructions*".
 
-Many papers sell the VLN application as a household robot, where the user can ask the robot to go to the kitchen and [bring him/her a spoon](https://bringmeaspoon.org/). The problem is, if we are taking about a household robot, why do we need to describe the path in such a comprehensive way? "*Exit the bathroom and turn right. Continue down the hall and turn left into the kitchen area. Once you enter the kitchen area turn right. Immediately turn right again. Wait in the smaller kitchen area in front of the sink.*" Couldn't I simply say "*Please bring me a spoon*"? :unamused: Moreover, if it is a household robot, why not simply ask it to navigate, to do some mappings and to get familiar with the environment first?
+Many papers sell the VLN application as a household robot, where the user can ask the robot to go to the kitchen and [bring him/her a spoon](https://bringmeaspoon.org/). The problem is, if we are talking about a household robot, why do we need to describe the path in such a comprehensive way? "*Exit the bathroom and turn right. Continue down the hall and turn left into the kitchen area. Once you enter the kitchen area turn right. Immediately turn right again. Wait in the smaller kitchen area in front of the sink.*" Couldn't I simply say "*Please bring me a spoon*"? :unamused: Moreover, if it is a household robot, why not simply ask it to navigate, to do some mappings and to get familiar with the environment first?
 
-Well... I understand we are trying to solve an easier problem first. And we are solving it as a vision-and-language problem, not really a navigation task. As for [REVERIE](https://github.com/YuankaiQi/REVERIE), those high-level instructions make much more sense to me, but directly learn to navigation with high-level instructions is way too difficult --- too much **commonsense** requried, wait... how to define *commonsense*??
+Well... I understand we are trying to solve an easier problem first. And we are solving it from the vision-and-language perspective, not really a navigation task. As for [REVERIE](https://github.com/YuankaiQi/REVERIE), those high-level instructions make much more sense to me, but directly learn to navigate with high-level instructions is way too difficult --- too much **commonsense** requried, wait... how to define *commonsense*??
 
 <p align="center"><img src="figures/peter-vln.jpg" width=80%></p>
 <p align="center">Fig. Vision-and-Language Navigation (Peter Anderson et al., CVPR 2018).</p>
 
+[Self-Exploration](https://arxiv.org/abs/1811.10092) is a very inspiring self-supervised learning method, which "*is of practical benefit because it facilitates lifelong learning and adaption to new environments*". But whenever I think about mapping a new environment, I am not sure if self-exploration is still a good idea, afterall, the [Speaker](https://arxiv.org/abs/1806.02724) is defective and the training should be slow.
+
 
 - Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments
   - Peter Anderson et al., CVPR 2018. [ [paper](https://arxiv.org/abs/1711.07280) | [code](https://github.com/peteanderson80/Matterport3DSimulator) | [project page](https://bringmeaspoon.org/) ]
+- Reinforced Cross-Modal Matching and Self-Supervised Imitation Learning for Vision-Language Navigation
+  - Xin Wang et al., CVPR 2019. [ [paper](https://arxiv.org/abs/1811.10092) ]
 
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
