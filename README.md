@@ -224,9 +224,9 @@ Another very interesting finding in [Entity-Graph](https://arxiv.org/abs/2010.09
 
 The greatest lesson I've learned in my PhD so far is never about how to publish a paper.
 
-It's about how to learn, how to think, how to find a solution, how to plan, how to work with others and how to communicate.
+It's about how to learn, how to think, how to find a solution, how to plan, how to work with others and how to communicate. :relaxed::relaxed::relaxed:
 
-Learn to persist, learn to respect, learn to be responsible, learn to be precise, learn to be open-minded, learn to be thankful, learn to be critical and generous. Learn to enjoy the great time at [ANU](https://www.anu.edu.au/), learn to value my own work and learn to contribute. :relaxed::relaxed::relaxed:
+<!-- Learn to persist, learn to respect, learn to be responsible, learn to be precise, learn to be open-minded, learn to be thankful, learn to be critical and generous. Learn to enjoy the great time at [ANU](https://www.anu.edu.au/), learn to value my own work and learn to contribute. :relaxed::relaxed::relaxed: -->
 
 <!-- Thanks [Steve](http://users.cecs.anu.edu.au/~sgould/), thanks [Qi](http://www.qi-wu.me/), thanks [Cristian](https://crodriguezo.github.io/), thanks [Lexing](http://users.cecs.anu.edu.au/~xlx/), thanks [Yuankai](https://sites.google.com/site/yuankiqi/home) and thanks all my friends and colleagues at [ACRV](https://www.roboticvision.org/) & [CECS,ANU](https://cecs.anu.edu.au/). -->
 
