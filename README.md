@@ -62,7 +62,7 @@ Simply "*bring me a spoon*" sounds like we don't need (natural) language at all,
   - Kevin Chen et al., arXiv 2021. [ [paper](https://arxiv.org/abs/2012.05292) ]
 
 <!--[ [paper]() | [code]() | [project page]() ]-->
------------------------
+===================
 
 
 ### <a name="2"></a>2 - About Memory Graph and Early Training
