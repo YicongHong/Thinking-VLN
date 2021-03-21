@@ -29,7 +29,7 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 
 ### VLN Research Timeline
 
-<p align="center"><img src="figures/vln-timeline.png" width=80%></p>
+<p align="center"><img src="figures/vln-timeline.png" width=90%></p>
 
 -------------------------
 
