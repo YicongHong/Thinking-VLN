@@ -1,5 +1,5 @@
 # Thinking-VLN
-Some of my immature ideas and thoughts about the fascinating [Vision-and-Language Navigation](https://panderson.me/). :smiley: (last update 12.Mar.2021)
+Some of my immature ideas and thoughts about the fascinating [Vision-and-Language Navigation](https://panderson.me/). :smiley: (last update 21.Mar.2021)
 
 Well... it has been three years, [WHERE IS MY SPOON???](https://bringmeaspoon.org/) :expressionless::expressionless::expressionless:
 
@@ -17,7 +17,7 @@ Cats are extremely helpful to research! I do [cloud cat-petting](https://space.b
 
 ### Some more serious thinkings
 
-Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere: (last update 12.Mar.2021)
+Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT ME IF I AM WRONG. :persevere::persevere: (last update 21.Mar.2021)
 
 <a href="#1">1 - Are We Asking the Right Question?</a><br>
 <a href="#2">2 - About Memory Graph and Early Training</a><br>
@@ -26,6 +26,10 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 <a href="#5">5 - About Separating Visual Modalities</a><br>
 <a href="#6">6 - About Using Objects</a><br>
 <a href="#7">7 - Finally</a><br>
+
+### VLN Research Timeline
+
+<p align="center"><img src="figures/vln-timeline.jpg" width=80%></p>
 
 -------------------------
 
