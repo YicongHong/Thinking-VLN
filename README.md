@@ -27,10 +27,10 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 <a href="#6">6 - About Using Objects</a><br>
 <a href="#7">7 - Finally</a><br>
 
-### VLN Research Timeline
+### R2R-VLN Research Timeline
 
 <p align="center"><img src="figures/vln-timeline.png" width=90%></p>
-<p align="center">Fig. VLN Research Timeline (+ a few visual navigation papers).</p>
+<p align="center">Fig. R2R-VLN Research Timeline (+ a few visual navigation papers).</p>
 
 -------------------------
 
