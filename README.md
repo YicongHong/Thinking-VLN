@@ -125,7 +125,7 @@ Not sure if this problem is somehow reflected in Fig.(left) below, considering t
 
 Perhaps a more rigorous way to argue about progress monitor is to talk about its regularization function in training -- a weak signal to guide the network to read the most relevant text while exploring ([monotonically aligned sequences](https://arxiv.org/abs/2004.02707)), rather than a prediction of the navigation progress. [RxR dataset](https://github.com/google-research-datasets/RxR) has much more diverse language and path lengths, should try on that. :grin::grin:
 
-One more thing, the idea in [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) provides a very handy way to monitor the progress. But after more than a year finished that work, I realize the biggest value of FGR2R is the sub-instructions, not the sub-instruction-path alignment, although the chunking function is only a heuristic.
+One more thing, the idea in [Fine-Grained-R2R](https://arxiv.org/abs/2004.02707) provides a very handy way to monitor the progress.
 
 Oh, one more! Progress estimation helps back-tracking, take a look at the [Regretful Agent](https://arxiv.org/abs/1903.01602) if you are interested.
 
