@@ -29,7 +29,7 @@ Wait, be careful. Perhaps nothing make sense. And PLEASE PLEASE PLEASE CORRECT M
 
 ### R2R-VLN Research Timeline
 
-<p align="center"><img src="figures/vln-timeline.jpg" width=90%></p>
+<p align="center"><img src="figures/VLN-research-timeline.jpg" width=90%></p>
 <p align="center">Fig. R2R-VLN Research Timeline (+ a few visual navigation papers).</p>
 
 -------------------------
