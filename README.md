@@ -1,7 +1,7 @@
 # Thinking-VLN
 Some of my immature ideas and thoughts about the fascinating [Vision-and-Language Navigation](https://panderson.me/). :smiley: (last update 21.Mar.2021)
 
-**OK, I DEFINITELY NEED TO UPDATE THIS PAGE ...** :disappointed_relieved::disappointed_relieved: (19.May.2022)
+**OK, I DEFINITELY NEED TO UPDATE THIS PAGE ...** :disappointed_relieved::disappointed_relieved: (28.June.2023)
 
 Well... it has been three years, [WHERE IS MY SPOON???](https://bringmeaspoon.org/) :expressionless::expressionless::expressionless:
 
